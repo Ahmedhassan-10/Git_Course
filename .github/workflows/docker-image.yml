@@ -29,5 +29,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ahmed:tagname
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ahmed:latest
 
