@@ -1,6 +1,4 @@
 FROM nginx:alpine
-COPY hassan.html /usr/share/nginx/html/hassan.html
+COPY hassan.html /usr/share/nginx/html/index.html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
-
-
