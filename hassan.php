@@ -44,6 +44,7 @@ $result = $conn->query($sql);
     </style>
 </head>
 <body>
+    <h1>hi ahmed</h1>
     <h2 style="text-align:center;">People Table</h2>
     <table>
         <tr>
@@ -63,3 +64,4 @@ $result = $conn->query($sql);
     </table>
 </body>
 </html>
+
