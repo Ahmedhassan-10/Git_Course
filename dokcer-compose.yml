@@ -13,7 +13,7 @@ services:
     environment:
       DB_HOST: localhost
       DB_USER: root
-      DB_PASSWORD: root
+      DB_PASSWORD: 
       DB_NAME: datav1
 
   db:
@@ -21,7 +21,7 @@ services:
     container_name: mysql-db
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: 
       MYSQL_DATABASE: datav1
     ports:
       - "3306:3306"
@@ -31,3 +31,4 @@ services:
 
 volumes:
   db_data:
+
