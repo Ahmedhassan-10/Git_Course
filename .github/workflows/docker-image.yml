@@ -29,4 +29,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ahmedhassn/ahmed:V2
+          no-cache: true
+          tags: ahmedhassn/ahmed:V3
