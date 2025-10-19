@@ -30,4 +30,4 @@ jobs:
           file: ./Dockerfile
           push: true
           no-cache: true
-          tags: ahmedhassn/ahmed:V3
+          tags: ahmedhassn/ahmed:V1
