@@ -1,9 +1,9 @@
+# Use nginx to serve static files
 FROM nginx:alpine
 
-WORKDIR /usr/share/nginx/html
-
-COPY . .
-
+# Copy your HTML and CSS into the nginx folder
+COPY ahmed.html /usr/share/nginx/html/
+COPY style.css /usr/share/nginx/html/
 
 EXPOSE 80
 
